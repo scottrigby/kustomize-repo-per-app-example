@@ -1,10 +1,10 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: my-nginx
+  name: hello
 spec:
   template:
     spec:
       containers:
-      - name: my-nginx
-        image: nginx:stable
+      - name: hello
+        image: localhost:5001/hello:v1

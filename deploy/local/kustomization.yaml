@@ -1,0 +1,6 @@
+resources:
+- ../base/
+patchesStrategicMerge:
+- patch-replicas.yaml
+- patch-env.yaml
+- patch-tag.yaml
